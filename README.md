@@ -103,14 +103,34 @@
 　　下記コードを入力してgemini-tryを自分のパソコンにインストール
 　　git clone https://github.com/自分のアカウント名/gemini-try.git
 　　
-３，GPTに質問
-###背景### 
-WEBアプリTypescript,Next.js,Reactで開発しています。 開発環境はWindows11,Cursor,Powershell,npm,gitgraphです。
+３，Pythonインストール
+　　python-3.10.6-amd64.exeをインストール
+　　Windows installer
 
-Githubアカウント「Takeshi-OO」の「gemini-try」リポジトリを、Githubアカウント「「Takeshi-OO-sub」」がローカルで開発してプルリクエストできるようにする方法を教えてください。
+４，.env.localをコピー
+　　GitHub Gistで.env.localを作成
+　　下記コードをパワーシェル（ターミナル）で実行するとｃドライブ内に.env.localが作られる
+　　curl -o .env.local https://gist.githubusercontent.com/username/xxxxxxxx/raw/
+　　注意
+　　「https://gist.githubusercontent.com/username/xxxxxxxx/raw/」
+　　 の部分は、Gist の「Raw」ボタンをクリックして表示された URL に置き換えてください。
+　　作られた.env.localを「gemini-try」フォルダに移動
 
-「Takeshi-OO」の「gemini-try」リポジトリはフォーク済み。
-「gemini-try」リポジトリをローカルに保存済み。
+５，Node.jsをインストール
+
+６，実行ポリシーを「RemoteSigned」に設定
+　　下記プログラムを実行
+　　Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+７，npmをインストール
+　　Cursorのターミナルで　npm install　を実行
+　　ピロピロなってインストールされる
+
+８，「gemini-try」を走らせる
+　　python launch.py　を実行
+
+
+
 
 
 
