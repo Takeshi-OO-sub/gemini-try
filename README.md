@@ -93,9 +93,24 @@
 
 
 １，gemini-tryをフォーク
+　　インストールしたい相手のアカウントでGithubにログインしてもらう
+　　gemini-tryのURLに入ってもらう→https://github.com/Takeshi-OO/gemini-try
+　　右上の「Fork」を押して、自分のアカウントを選択
+
 ２，gemini-tryをクローンしてローカル（自分のパソコン）に保存
+　　Cドライブ→ユーザー→ユーザー名の中に「projects」フォルダを作成
+　　「スタート」ボタンを右クリックして「ターミナル」を選択
+　　下記コードを入力してgemini-tryを自分のパソコンにインストール
 　　git clone https://github.com/自分のアカウント名/gemini-try.git
-３，
+　　
+３，GPTに質問
+###背景### 
+WEBアプリTypescript,Next.js,Reactで開発しています。 開発環境はWindows11,Cursor,Powershell,npm,gitgraphです。
+
+Githubアカウント「Takeshi-OO」の「gemini-try」リポジトリを、Githubアカウント「「Takeshi-OO-sub」」がローカルで開発してプルリクエストできるようにする方法を教えてください。
+
+「Takeshi-OO」の「gemini-try」リポジトリはフォーク済み。
+「gemini-try」リポジトリをローカルに保存済み。
 
 
 
