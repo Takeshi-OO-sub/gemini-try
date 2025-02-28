@@ -80,6 +80,26 @@
 
 
 
+--------------------------------------------
+「gemini-try」の開発環境を整える方法
+
+
+
+
+
+
+
+
+
+１，gemini-tryをフォーク
+２，gemini-tryをクローンしてローカル（自分のパソコン）に保存
+　　git clone https://github.com/自分のアカウント名/gemini-try.git
+３，
+
+
+
+
+
 
 
 # marria
